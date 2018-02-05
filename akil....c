@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
     int base, exponent;
 
@@ -19,6 +19,7 @@ int main()
     }
 
     printf("Answer = %lld", result);
+    getch();
 
     return 0;
 }
